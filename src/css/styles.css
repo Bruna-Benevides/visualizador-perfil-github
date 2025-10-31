@@ -144,3 +144,59 @@ main {
 .container .profile-results.hide {
   display: none;
 }
+
+.profile-data {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xl);
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.profile-info {
+  flex: 1;
+  text-align: left;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: var(--spacing-lg);
+}
+
+.profile-name {
+  font-size: var(--font-2xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+}
+
+.profile-username {
+  font-size: var(--font-lg);
+  color: var(--muted-foreground);
+  margin-bottom: var(--spacing-md);
+}
+
+.profile-stats {
+  display: flex;
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.stat-value {
+  font-size: var(--font-xl);
+  font-weight: 700;
+}
+
+.stat-label {
+  font-size: var(--font-sm);
+  color: var(--muted-foreground);
+}
