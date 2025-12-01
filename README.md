@@ -23,7 +23,7 @@ Este é um projeto de um visualizador de perfil do GitHub, que permite aos usuá
 
 O projeto está disponível para visualização no seguinte link:
 
-[Visualizador de Perfil do GitHub](https://elidianaandrade.github.io/visualizador-perfil-github/)
+[Visualizador de Perfil do GitHub](https://bruna-benevides.github.io/visualizador-perfil-github/)
 
 ## Estrutura do Projeto
 
