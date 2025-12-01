@@ -180,7 +180,7 @@ main {
   color: var(--muted-foreground);
 }
 
-.loading {
+.profile-results .loading {
   font-size: var(--font-lg);
   font-weight: 500;
   margin-top: var(--spacing-xl);
